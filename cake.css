@@ -1,0 +1,364 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+                        /**  Top_nav Starts */
+
+#Top_nav
+{
+	background-color:#ebbc3b;
+	text-align: center;
+}
+
+#Top_nav ul
+{
+	padding: 10px;
+}
+
+#Top_nav ul li
+{
+	padding: 6px 25px;
+	display: inline;
+	border-left:1px solid black;
+}
+
+#Top_nav ul li a
+{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+							/*  Top_nav css ends*/	
+
+
+							/* Main nav css start*/
+#Main_nav
+{
+	text-align: center;
+}
+
+#Main_nav ul
+{
+	padding: 5px;
+}
+
+#Main_nav ul li
+{
+	display: inline;
+	padding: 10px;
+	border-right: 1px solid gray;
+}
+
+#Main_nav ul li a
+{
+	font-size: 17px;
+	color: black;
+	text-decoration: brown;
+}
+
+#Main_nav ul li a .fa
+{
+	background-color: #876403;
+	border-radius: 50%;
+	padding: 10px;
+	color: white;
+}
+
+#b
+{
+	padding: 5px 9px;
+	border-radius: 50%;
+	border:none;
+	background-color: yellow;
+	position: relative;
+	left: 35px;
+	top: -25px;
+}
+
+						/* Slide show start */    
+#slide
+{
+	width: 100%;
+	height: 500px;
+	background-image: url("https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/7/2016/07/290716_AssortedCupcakes-CupcakeFactory.jpg?w=1200&h=628&fill=blur&fit=fill");
+	background-size: 100% 100%;
+}
+
+#upradio input
+{
+	position: relative;
+	top: -30px;
+}
+
+body
+{
+	margin-bottom: 50px;
+}
+
+#three
+{
+	width: 80px;
+	height: 3px;
+	background-color: red;
+}
+
+#two
+{
+	width: 270px;
+	height: 3px;
+	background-color: gray;
+}
+
+#two, #one
+{
+	display: flex;
+	justify-content: center;
+}
+
+#product p
+{
+	padding: 30px 0px;
+}
+
+/*  #boxes
+{
+	width: 80%;
+	margin: auto;
+}
+
+#boxes img
+{
+	width: 250px;
+	height: 250px;
+	margin: 20px;
+	border:2px solid black;
+}   */
+
+.AA
+{
+	width:300px;
+	height: 250px;
+	background-size: 100% 100%;
+	margin: 10px;
+	display: flex;
+	align-items: flex-end;
+	float: left;
+}
+
+#boxes
+{
+	margin-left: 60px;
+}
+
+.text 
+{
+	color: white;
+	background-color: black;
+	text-align: center;
+	opacity: 0;
+	padding: 7px;
+}
+
+#a1
+{
+	background-image: url("https://www.giverecipe.com/wp-content/uploads/2016/05/strawberry-chocolate-cake-1.jpg");
+}
+
+#a2
+{
+	background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTGSn0-twFLC-8OOejGTDjWOvTo7qbvRVAXJVvwFwM5_AQZxl4o");
+}
+
+#a3
+{
+	background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJHSKLy3trt-B0w3x2lWaNsIyJdS5gjEEqGtCsxhXwmksAC5TF");
+}
+
+#a4
+{
+	background-image: url("https://ribbonsandballoons.com/assets1/uploads/White-Forest-Cake_384451.jpg");
+}
+
+#a5
+{
+	background-image: url("https://ribbonsandballoons.com/assets1/uploads/Cappuccino_933339.jpg");
+}
+
+#a6
+{
+	background-image: url("https://ribbonsandballoons.com/assets1/uploads/Black-Forest-Cake-_750066.jpg");
+}
+
+#a7
+{
+	background-image: url("https://ribbonsandballoons.com/assets1/uploads/mango-delight_627179.jpg");
+}
+
+#a8
+{
+	background-image: url("https://www.foodnetwork.com/content/dam/images/food/video/0/01/013/0134/0134061.jpg");
+}
+
+.text .fa
+{
+	padding: 7px 9px;
+	border-radius: 50%;
+	background-color: orange;
+	position: relative;
+	top: -25px;
+}
+
+.AA:hover .text
+{
+	opacity: 1;
+}
+
+
+#center_box{
+    padding: 30px;
+
+}
+
+#center_box div{
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid grey; */
+    text-align: center;
+    padding: 6px;
+}
+
+#center_box div:hover{
+    background-color: gold;
+    color: white;
+}
+
+#yellow_box{
+    padding: 30px;
+    background-color: #f5f75e;
+    text-align: center;
+}
+
+#inner_yellow{
+    display: flex;
+}
+
+.yellow_icon{
+    flex: 1;
+    padding: 10px;
+}
+
+#inner_yellow .yellow_icon .fa-birthday-cake, .fa-user{
+    padding: 20px 25px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid gold;
+}
+
+#inner_yellow hr{
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#inner_yellow .yellow_icon a{
+    text-decoration: none;
+    color: #6fe362;
+}
+
+#banner{
+    margin-top: 0px;
+    display: flex;
+    width: 70%;
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+    left: 380px;
+}
+
+#banner div{
+    flex: 1;
+}
+
+#banner div h1, h4{
+    color: #876403;
+    font-size: 30px;
+}
+
+#banner div p{
+    width: 350px;
+    margin: 2px;
+}
+
+#banner div button{
+    padding: 6px 20px;
+    border: none;
+    background-color: #876403;
+    color: white;
+    font-size: 18px;
+}
+
+#img8{
+    border-radius: 50%;
+    border: 2px solid #876403;
+    position: relative;
+    top: 90px;
+    left: 280px;
+}
+
+#footer{
+    /* border: 1px solid black; */
+    background-color: #c1d5f5;
+    margin-top: 5px;
+}
+
+#foot1{
+    display: flex;
+    padding: 50px;
+}
+
+#foot1 div{
+    flex: 1;
+    color: black;
+    padding: 6px 20px;
+    margin: 5px;
+}
+
+#foot1 div input{
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 48);
+}
+
+#foot1 div button{
+    padding: 3px;
+    background-color: #ffefbb;
+    border: 1px solid rgb(201, 201, 48);
+}
+
+#id_s .fa{
+    padding: 9px;
+    border-radius: 50%;
+    color: black;
+    background-color: #ffefbb;
+    border: 1px solid #ffefbb;
+}
+
+#foot1 #links{
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
